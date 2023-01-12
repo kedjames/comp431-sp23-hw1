@@ -8,12 +8,12 @@ The goal for the first half of the course is to build a simple mail server and m
 2. A valid test input file called ``valid_test_input_1.py``.
 3. An invalid test input file called ``invalid_test_input_1.py``.
 
-Once you have completed coding your parser, you can test it with both the valid and invalid input files provided in this repo. To test the program with the valid file, execute the command ``python3 valid_test_input_1.py > valid_file``. Next, execute the command ``python3 parse.py < valid_file``. Your program must output the following lines:
+Once you have completed coding your parser, you can test it with both the valid and invalid input files provided in this repo. To test the program with the valid file, execute the command ``python3 valid_test_input_1.py > valid_file``. Next, execute the command ``python3 parse.py < valid_file``. Your output should match the following lines:
 
 
 ``MAIL FROM:<jeffay@cs.unc.edu>`` <br /> ``Sender ok``
 
-Repeat the above steps with the invalid file, and your output must match the following:
+Repeat the above steps with the invalid file, and your output should match the following lines:
 
 ``MAIL FROM: <jeffay @cs.unc.edu>`` <br /> ``ERROR -- mailbox``
 

@@ -4,5 +4,5 @@ The goal for the first half of the course is to build a simple mail server and m
 **For a detailed description of the assignment, please see the assignment documentation.**
 
 **This repo contains the following files:**
-1. A python file named ``parse.py"
+1. A python file named ``parse.py``
 

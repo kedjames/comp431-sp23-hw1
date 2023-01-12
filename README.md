@@ -5,4 +5,5 @@ The goal for the first half of the course is to build a simple mail server and m
 
 **This repo contains the following files:**
 1. A python file named ``parse.py``
+2. An example test input file called valid_SMTP
 
